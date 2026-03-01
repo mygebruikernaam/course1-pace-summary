@@ -20,7 +20,7 @@
     <header class="hero">
         <div class="hero-content">
             <span class="badge">Cambridge PACE</span>
-            <h1>Course 1: Statistics & Data Science</h1>
+            <h1>Course 1: Statistics & Core Data Science</h1>
             <p class="subtitle">CAM_DS_101: Applying statistics and core data science techniques in business</p>
             <div class="stats-row">
                 <div class="stat">
@@ -28,7 +28,7 @@
                     <span class="stat-label">Completed</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number">50</span>
+                    <span class="stat-number">65</span>
                     <span class="stat-label">Total Items</span>
                 </div>
                 <div class="stat">
@@ -41,9 +41,13 @@
 
     <!-- Navigation -->
     <nav class="stage-nav">
-        <a href="#week1-2" class="nav-pill active">
+        <a href="#week1" class="nav-pill active">
             <span class="pill-icon">1</span>
-            <span>Weeks 1-2</span>
+            <span>Statistical Thinking</span>
+        </a>
+        <a href="#week2" class="nav-pill">
+            <span class="pill-icon">2</span>
+            <span>Advanced Stats</span>
         </a>
         <a href="#week3" class="nav-pill">
             <span class="pill-icon">3</span>
@@ -61,32 +65,28 @@
             <span class="pill-icon">6</span>
             <span>Clustering</span>
         </a>
-        <a href="#mini-project" class="nav-pill">
-            <span class="pill-icon">MP</span>
-            <span>Mini-Project</span>
-        </a>
     </nav>
 
     <!-- Main Content -->
     <main class="container">
-        <!-- WEEKS 1-2: Statistical Foundations -->
-        <section id="week1-2" class="stage-section">
+        <!-- ==================== WEEK 1 ==================== -->
+        <section id="week1" class="stage-section">
             <div class="stage-header">
-                <span class="stage-badge">WEEKS 1-2</span>
-                <h2>Statistical Thinking & Advanced Techniques</h2>
-                <p class="stage-desc">Building commercial awareness through statistical foundations: descriptive stats, probability, hypothesis testing, correlation, and regression.</p>
+                <span class="stage-badge">WEEK 1</span>
+                <h2>Developing Commercial Awareness Through Statistical Thinking</h2>
+                <p class="stage-desc">Problem analysis, hypothesis development, and fundamental statistics for data-driven business decisions.</p>
             </div>
 
-            <!-- Item 1: Descriptive Statistics -->
+            <!-- 1.1 Adding Value Through Data Science -->
             <div class="rubric-card expanded">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-1">
+                        <input type="checkbox" data-id="c1-1-1">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#1</span>
-                        <h3>Descriptive Statistics: Mean, Median, Mode, Variance, Standard Deviation</h3>
+                        <span class="item-number">1.1.1</span>
+                        <h3>Adding Value Through Data Science</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -97,98 +97,237 @@
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Core Concepts</div>
-                            <p><strong>Mean:</strong> Average of all values. Sensitive to outliers.<br>
-                            <strong>Median:</strong> Middle value when sorted. Robust to outliers.<br>
-                            <strong>Mode:</strong> Most frequent value. Works with categorical data.<br>
-                            <strong>Variance (σ²):</strong> Average squared deviation from mean.<br>
-                            <strong>Standard Deviation (σ):</strong> Square root of variance - same units as data.</p>
+                            <div class="insight-header">Core Concept</div>
+                            <p><strong>Caveman:</strong> Data science turns business questions into money.</p>
+                            <p>Data science creates value by transforming raw data into actionable insights that drive business decisions. It bridges the gap between data availability and strategic decision-making.</p>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Common Mistakes</div>
-                            <p>Using <code>mean</code> for skewed data (use median instead).<br>
-                            Confusing population (σ) vs sample (s) standard deviation.<br>
-                            Ignoring the impact of outliers on variance.</p>
+                        <div class="insight pass">
+                            <div class="insight-header">Business Applications</div>
+                            <ul>
+                                <li><strong>Customer insights:</strong> Understanding behavior patterns</li>
+                                <li><strong>Operational efficiency:</strong> Optimizing processes</li>
+                                <li><strong>Risk management:</strong> Predicting and mitigating risks</li>
+                                <li><strong>Revenue optimization:</strong> Pricing and demand forecasting</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1.1.2 Statistical Thinking -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-1-2">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">1.1.2</span>
+                        <h3>Exploring Statistical Thinking as a Data Science Tool</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">What Is Statistical Thinking?</div>
+                            <p><strong>Caveman:</strong> Using numbers to understand reality, not just guess.</p>
+                            <p>Statistical thinking is a framework for understanding variation, uncertainty, and patterns in data. It goes beyond routine analysis to ensure you're solving the right problem with the right method.</p>
+                        </div>
+                        <div class="insight pass">
+                            <div class="insight-header">Key Principles</div>
+                            <ul>
+                                <li><strong>All work is a process:</strong> Outcomes result from interconnected activities</li>
+                                <li><strong>Variation exists:</strong> Understanding variation is key to improvement</li>
+                                <li><strong>Data-driven decisions:</strong> Evidence over intuition</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1.1.3 Analysing Organisational Challenges -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-1-3">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">1.1.3</span>
+                        <h3>Analysing Organisational Challenges to Identify Problems</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">Problem Definition Process</div>
+                            <p><strong>Caveman:</strong> Don't solve the wrong problem really well.</p>
+                            <ol>
+                                <li><strong>Understand the context:</strong> Business goals, stakeholders, constraints</li>
+                                <li><strong>Identify symptoms vs root causes:</strong> Surface issues often mask deeper problems</li>
+                                <li><strong>Define success metrics:</strong> How will you measure improvement?</li>
+                                <li><strong>Scope the analysis:</strong> What data, timeframe, and resources?</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1.2.1 Designing Actionable Solutions -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-1-4">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">1.2.1</span>
+                        <h3>Designing Actionable Solutions with Statistical Thinking</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">From Analysis to Action</div>
+                            <p>Solutions must be:</p>
+                            <ul>
+                                <li><strong>Specific:</strong> Clear and well-defined</li>
+                                <li><strong>Measurable:</strong> Quantifiable outcomes</li>
+                                <li><strong>Actionable:</strong> Implementable by stakeholders</li>
+                                <li><strong>Relevant:</strong> Aligned with business goals</li>
+                                <li><strong>Time-bound:</strong> Clear implementation timeline</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1.2.2 Hypothesising for Success -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-1-5">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">1.2.2</span>
+                        <h3>Hypothesising for Organisational Success</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">Forming Good Hypotheses</div>
+                            <p><strong>Caveman:</strong> A guess you can test and be proven wrong about.</p>
+                            <p>A good hypothesis is:</p>
+                            <ul>
+                                <li><strong>Testable:</strong> Can be validated with data</li>
+                                <li><strong>Falsifiable:</strong> Can be proven wrong</li>
+                                <li><strong>Specific:</strong> Clear prediction about relationships</li>
+                                <li><strong>Relevant:</strong> Addresses the business problem</li>
+                            </ul>
+                        </div>
+                        <div class="insight warning">
+                            <div class="insight-header">Null vs Alternative Hypothesis</div>
+                            <ul>
+                                <li><strong>H₀ (Null):</strong> No effect/relationship exists (status quo)</li>
+                                <li><strong>H₁ (Alternative):</strong> Effect/relationship exists (what you're testing)</li>
+                            </ul>
+                            <p>We test to reject H₀, never to "prove" H₁.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1.3.1 Probability Concepts -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-1-6">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">1.3.1</span>
+                        <h3>Applying Probability Concepts and Distributions</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">Normal Distribution (Gaussian)</div>
+                            <p><strong>Caveman:</strong> Most data clusters around the middle, extremes are rare.</p>
+                            <p>The bell curve is fundamental because:</p>
+                            <ul>
+                                <li><strong>68-95-99.7 rule:</strong> ~68% within 1σ, ~95% within 2σ, ~99.7% within 3σ</li>
+                                <li>Many natural phenomena follow this pattern</li>
+                                <li>Central Limit Theorem makes it universally applicable</li>
+                            </ul>
+                        </div>
+                        <div class="insight pass">
+                            <div class="insight-header">Key Distributions</div>
+                            <ul>
+                                <li><strong>Normal:</strong> Continuous, symmetric (heights, errors)</li>
+                                <li><strong>Binomial:</strong> Discrete, fixed trials (success/failure counts)</li>
+                                <li><strong>Poisson:</strong> Discrete, rare events (customer arrivals, defects)</li>
+                                <li><strong>Exponential:</strong> Time between events (waiting times)</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
-                        <pre><code class="language-python">import pandas as pd
+                        <pre><code class="language-python"># Checking for normal distribution
+import scipy.stats as stats
 import numpy as np
 
-# Descriptive statistics in one line
-df['column'].describe()
-
-# Individual measures
-mean = df['column'].mean()
-median = df['column'].median()
-mode = df['column'].mode()[0]
-variance = df['column'].var()  # Sample variance (n-1)
-std_dev = df['column'].std()   # Sample std dev</code></pre>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Item 2: Data Distributions -->
-            <div class="rubric-card">
-                <div class="card-header">
-                    <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-2">
-                        <span class="checkmark"></span>
-                    </label>
-                    <div class="card-title-area">
-                        <span class="item-number">#2</span>
-                        <h3>Understanding Data Distributions: Normal, Skewed, Uniform</h3>
-                    </div>
-                    <button class="expand-btn" aria-label="Toggle details">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6,9 12,15 18,9"></polyline>
-                        </svg>
-                    </button>
-                </div>
-                <div class="card-content">
-                    <div class="insights-grid">
-                        <div class="insight pass">
-                            <div class="insight-header">Distribution Types</div>
-                            <p><strong>Normal (Gaussian):</strong> Bell curve, symmetric, mean=median=mode. ~68% within 1σ, ~95% within 2σ.<br>
-                            <strong>Right-skewed:</strong> Long tail to right, mean > median. Common in salaries, house prices.<br>
-                            <strong>Left-skewed:</strong> Long tail to left, mean < median.<br>
-                            <strong>Uniform:</strong> All values equally likely. Rolling a die.</p>
-                        </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Why It Matters</div>
-                            <p>Distribution determines which statistical tests you can use.<br>
-                            Many ML algorithms assume normal distribution.<br>
-                            Skewness affects feature engineering decisions.</p>
-                        </div>
-                    </div>
-                    <div class="code-block">
-                        <pre><code class="language-python">import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
-
-# Visualize distribution
-sns.histplot(df['column'], kde=True)
-
-# Test for normality (Shapiro-Wilk)
-stat, p_value = stats.shapiro(df['column'])
+# Shapiro-Wilk test (for n < 5000)
+stat, p_value = stats.shapiro(data)
 if p_value > 0.05:
-    print("Data is likely normal")
+    print("Data appears normally distributed")
 else:
-    print("Data is NOT normally distributed")</code></pre>
+    print("Data likely NOT normally distributed")
+
+# Visual check with Q-Q plot
+stats.probplot(data, dist="norm", plot=plt)
+plt.title("Q-Q Plot")
+plt.show()</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 3: Hypothesis Testing -->
+            <!-- 1.3.2 Central Limit Theorem -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-3">
+                        <input type="checkbox" data-id="c1-1-7">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#3</span>
-                        <h3>Hypothesis Testing: Null vs Alternative, p-values, Significance</h3>
+                        <span class="item-number">1.3.2</span>
+                        <h3>Shaping Samples Using the Central Limit Theorem</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -199,47 +338,37 @@ else:
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">The Framework</div>
-                            <p><strong>H₀ (Null):</strong> "No effect" or "No difference" - the status quo.<br>
-                            <strong>H₁ (Alternative):</strong> What you're trying to prove.<br>
-                            <strong>p-value:</strong> Probability of seeing this result IF H₀ is true.<br>
-                            <strong>α (significance level):</strong> Threshold for rejecting H₀ (typically 0.05).<br>
-                            If p < α: Reject H₀ (statistically significant).</p>
+                            <div class="insight-header">The CLT Magic</div>
+                            <p><strong>Caveman:</strong> Take enough samples, their averages become normal—no matter what the original data looks like.</p>
+                            <p><strong>Formal statement:</strong> Given a sufficiently large sample size (n ≥ 30), the distribution of sample means approximates a normal distribution, regardless of the population's distribution.</p>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Critical Errors</div>
-                            <p><strong>Type I Error (False Positive):</strong> Rejecting H₀ when it's actually true.<br>
-                            <strong>Type II Error (False Negative):</strong> Failing to reject H₀ when it's actually false.<br>
-                            p-value ≠ probability that H₀ is true!</p>
+                        <div class="insight pass">
+                            <div class="insight-header">Why It Matters</div>
+                            <ul>
+                                <li>Enables parametric tests even with non-normal populations</li>
+                                <li>Foundation for confidence intervals</li>
+                                <li>Justifies using sample statistics to infer population parameters</li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="code-block">
-                        <pre><code class="language-python">from scipy import stats
-
-# t-test: Compare means of two groups
-group_a = df[df['group'] == 'A']['value']
-group_b = df[df['group'] == 'B']['value']
-t_stat, p_value = stats.ttest_ind(group_a, group_b)
-
-alpha = 0.05
-if p_value < alpha:
-    print(f"Reject H₀ (p={p_value:.4f}): Significant difference")
-else:
-    print(f"Fail to reject H₀ (p={p_value:.4f}): No significant difference")</code></pre>
+                        <div class="insight warning">
+                            <div class="insight-header">Standard Error of the Mean</div>
+                            <p><strong>SEM = σ / √n</strong></p>
+                            <p>As sample size increases, SEM decreases → more precise estimates</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 4: Correlation -->
+            <!-- 1.3.3 Confidence Intervals -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-4">
+                        <input type="checkbox" data-id="c1-1-8">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#4</span>
-                        <h3>Correlation: Pearson, Spearman, and Correlation ≠ Causation</h3>
+                        <span class="item-number">1.3.3</span>
+                        <h3>Estimating Parameters with Confidence Intervals</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -250,148 +379,376 @@ else:
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Correlation Types</div>
-                            <p><strong>Pearson (r):</strong> Linear relationship. Requires normal data, no outliers. Range: -1 to +1.<br>
-                            <strong>Spearman (ρ):</strong> Monotonic relationship. Works with non-normal, ordinal data.<br>
-                            <strong>Interpretation:</strong> |r| > 0.7 = strong, 0.3-0.7 = moderate, < 0.3 = weak.</p>
+                            <div class="insight-header">What CI Means</div>
+                            <p><strong>Caveman:</strong> "I'm 95% confident the true value is somewhere in this range."</p>
+                            <p><strong>Formula:</strong> CI = x̄ ± (z × SEM)</p>
+                            <p>For 95% CI: z = 1.96</p>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Golden Rule</div>
-                            <p><strong>Correlation ≠ Causation!</strong><br>
-                            Ice cream sales correlate with drowning deaths (both increase in summer).<br>
-                            Always look for confounding variables before claiming causality.</p>
-                        </div>
-                    </div>
-                    <div class="code-block">
-                        <pre><code class="language-python"># Pearson correlation matrix
-correlation_matrix = df.corr(method='pearson')
-
-# Spearman (for non-normal data)
-spearman_corr = df.corr(method='spearman')
-
-# Visualize
-import seaborn as sns
-sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', center=0)</code></pre>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Item 5: Linear Regression -->
-            <div class="rubric-card">
-                <div class="card-header">
-                    <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-5">
-                        <span class="checkmark"></span>
-                    </label>
-                    <div class="card-title-area">
-                        <span class="item-number">#5</span>
-                        <h3>Linear Regression: OLS, R², Coefficients</h3>
-                    </div>
-                    <button class="expand-btn" aria-label="Toggle details">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6,9 12,15 18,9"></polyline>
-                        </svg>
-                    </button>
-                </div>
-                <div class="card-content">
-                    <div class="insights-grid">
-                        <div class="insight pass">
-                            <div class="insight-header">Key Concepts</div>
-                            <p><strong>y = β₀ + β₁x + ε</strong><br>
-                            β₀ = intercept, β₁ = slope (coefficient), ε = error.<br>
-                            <strong>R² (Coefficient of Determination):</strong> % of variance explained by the model. 0-1 scale.<br>
-                            <strong>OLS (Ordinary Least Squares):</strong> Minimizes sum of squared residuals.</p>
-                        </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Assumptions to Check</div>
-                            <p>1. Linear relationship<br>
-                            2. Independence of errors<br>
-                            3. Homoscedasticity (constant variance)<br>
-                            4. Normal distribution of residuals<br>
-                            5. No multicollinearity (multiple regression)</p>
+                        <div class="insight warning">
+                            <div class="insight-header">Common Misinterpretation</div>
+                            <p><strong>WRONG:</strong> "There's a 95% probability the true mean is in this interval"</p>
+                            <p><strong>RIGHT:</strong> "If we repeated this sampling 100 times, ~95 of the intervals would contain the true mean"</p>
                         </div>
                     </div>
                     <div class="code-block">
-                        <pre><code class="language-python">from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score, mean_squared_error
+                        <pre><code class="language-python">import scipy.stats as stats
+import numpy as np
 
-X = df[['feature1', 'feature2']]
-y = df['target']
+# Calculate 95% confidence interval
+sample_mean = np.mean(data)
+sample_std = np.std(data, ddof=1)  # ddof=1 for sample std
+n = len(data)
+sem = sample_std / np.sqrt(n)
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-model = LinearRegression()
-model.fit(X_train, y_train)
-
-print(f"Intercept: {model.intercept_}")
-print(f"Coefficients: {model.coef_}")
-print(f"R² Score: {r2_score(y_test, model.predict(X_test)):.4f}")</code></pre>
+# Using t-distribution for small samples
+confidence = 0.95
+ci = stats.t.interval(confidence, df=n-1, loc=sample_mean, scale=sem)
+print(f"95% CI: ({ci[0]:.2f}, {ci[1]:.2f})")</code></pre>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- WEEK 3: Ethics & Statistical Methods -->
+        <!-- ==================== WEEK 2 ==================== -->
+        <section id="week2" class="stage-section">
+            <div class="stage-header">
+                <span class="stage-badge">WEEK 2</span>
+                <h2>Applying Advanced Statistical Techniques</h2>
+                <p class="stage-desc">Hypothesis testing, correlation analysis, and regression modelling for data-driven insights.</p>
+            </div>
+
+            <!-- 2.1.1 Exploring Hypotheses -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-2-1">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">2.1.1</span>
+                        <h3>Exploring Hypotheses</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">P-Value: The Decision Maker</div>
+                            <p><strong>Caveman:</strong> How likely you'd see this result if nothing was actually happening.</p>
+                            <ul>
+                                <li><strong>p < 0.05:</strong> "Statistically significant" — reject H₀</li>
+                                <li><strong>p ≥ 0.05:</strong> "Fail to reject H₀" — not enough evidence</li>
+                            </ul>
+                        </div>
+                        <div class="insight warning">
+                            <div class="insight-header">Type I & Type II Errors</div>
+                            <ul>
+                                <li><strong>Type I (α):</strong> False positive — saying effect exists when it doesn't</li>
+                                <li><strong>Type II (β):</strong> False negative — missing a real effect</li>
+                            </ul>
+                            <p><strong>Power = 1 - β</strong> (ability to detect true effects)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2.1.2 Hypothesis Testing -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-2-2">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">2.1.2</span>
+                        <h3>Testing Hypotheses: t-tests, ANOVA, and Chi-Square</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">When to Use Which Test</div>
+                            <table class="comparison-table">
+                                <tr>
+                                    <th>Test</th>
+                                    <th>Use When</th>
+                                    <th>Example</th>
+                                </tr>
+                                <tr>
+                                    <td><strong>t-test</strong></td>
+                                    <td>Compare means of 2 groups</td>
+                                    <td>Treatment vs Control</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>ANOVA</strong></td>
+                                    <td>Compare means of 3+ groups</td>
+                                    <td>3 teaching methods</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Chi-Square</strong></td>
+                                    <td>Association between categoricals</td>
+                                    <td>Gender vs Product preference</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="code-block">
+                        <pre><code class="language-python">from scipy import stats
+
+# Independent t-test (two groups)
+t_stat, p_value = stats.ttest_ind(group1, group2)
+
+# Paired t-test (same subjects, before/after)
+t_stat, p_value = stats.ttest_rel(before, after)
+
+# One-way ANOVA (3+ groups)
+f_stat, p_value = stats.f_oneway(group1, group2, group3)
+
+# Chi-Square test (categorical vs categorical)
+chi2, p_value, dof, expected = stats.chi2_contingency(contingency_table)</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2.2.1 Measuring Correlation -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-2-3">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">2.2.1</span>
+                        <h3>Measuring Correlation: Pearson and Spearman</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">Pearson vs Spearman</div>
+                            <p><strong>Caveman:</strong> Pearson measures straight-line relationships; Spearman measures "when one goes up, does the other tend to go up too?"</p>
+                            <table class="comparison-table">
+                                <tr>
+                                    <th>Pearson (r)</th>
+                                    <th>Spearman (ρ)</th>
+                                </tr>
+                                <tr>
+                                    <td>Linear relationships</td>
+                                    <td>Monotonic relationships</td>
+                                </tr>
+                                <tr>
+                                    <td>Continuous data</td>
+                                    <td>Ordinal or non-normal data</td>
+                                </tr>
+                                <tr>
+                                    <td>Sensitive to outliers</td>
+                                    <td>Robust to outliers</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="insight warning">
+                            <div class="insight-header">Interpreting Correlation</div>
+                            <ul>
+                                <li><strong>|r| < 0.3:</strong> Weak</li>
+                                <li><strong>0.3 ≤ |r| < 0.7:</strong> Moderate</li>
+                                <li><strong>|r| ≥ 0.7:</strong> Strong</li>
+                            </ul>
+                            <p><strong>CRITICAL:</strong> Correlation ≠ Causation!</p>
+                        </div>
+                    </div>
+                    <div class="code-block">
+                        <pre><code class="language-python">import pandas as pd
+from scipy import stats
+
+# Pearson correlation
+pearson_r, p_val = stats.pearsonr(x, y)
+
+# Spearman correlation
+spearman_rho, p_val = stats.spearmanr(x, y)
+
+# Correlation matrix for DataFrame
+corr_matrix = df.corr(method='pearson')  # or 'spearman'
+
+# Visualize with heatmap
+import seaborn as sns
+sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', center=0)</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2.3.1 Regression Fundamentals -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-2-4">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">2.3.1</span>
+                        <h3>Predicting with Regression: Coefficients, Intercepts, Residuals</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">Linear Regression Equation</div>
+                            <p><strong>y = β₀ + β₁x + ε</strong></p>
+                            <ul>
+                                <li><strong>β₀ (intercept):</strong> Value of y when x = 0</li>
+                                <li><strong>β₁ (coefficient):</strong> Change in y for 1-unit increase in x</li>
+                                <li><strong>ε (residual):</strong> Prediction error (actual - predicted)</li>
+                            </ul>
+                        </div>
+                        <div class="insight pass">
+                            <div class="insight-header">R² (Coefficient of Determination)</div>
+                            <p><strong>Caveman:</strong> What % of the outcome does your model explain?</p>
+                            <ul>
+                                <li><strong>R² = 0.80:</strong> Model explains 80% of variance</li>
+                                <li><strong>Higher R² = better fit</strong> (but beware overfitting)</li>
+                                <li><strong>Adjusted R²:</strong> Penalizes adding useless features</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="code-block">
+                        <pre><code class="language-python">from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score, mean_squared_error
+import numpy as np
+
+# Simple linear regression
+model = LinearRegression()
+model.fit(X, y)
+
+# Coefficients and intercept
+print(f"Intercept: {model.intercept_}")
+print(f"Coefficient: {model.coef_}")
+
+# Predictions and evaluation
+y_pred = model.predict(X)
+r2 = r2_score(y, y_pred)
+rmse = np.sqrt(mean_squared_error(y, y_pred))
+
+# Residuals
+residuals = y - y_pred</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2.3.2 Model Assumptions -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-2-5">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">2.3.2</span>
+                        <h3>Regression Assumptions (LINE)</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">LINE Assumptions</div>
+                            <ul>
+                                <li><strong>L - Linearity:</strong> Relationship between X and Y is linear</li>
+                                <li><strong>I - Independence:</strong> Observations are independent</li>
+                                <li><strong>N - Normality:</strong> Residuals are normally distributed</li>
+                                <li><strong>E - Equal variance (Homoscedasticity):</strong> Residual spread is constant</li>
+                            </ul>
+                        </div>
+                        <div class="insight warning">
+                            <div class="insight-header">How to Check</div>
+                            <ul>
+                                <li><strong>Linearity:</strong> Scatter plot of X vs Y</li>
+                                <li><strong>Independence:</strong> Durbin-Watson test</li>
+                                <li><strong>Normality:</strong> Q-Q plot of residuals</li>
+                                <li><strong>Homoscedasticity:</strong> Residuals vs fitted values plot</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2.3.3 Multiple Regression -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-2-6">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">2.3.3</span>
+                        <h3>Multiple Linear Regression</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">Multiple Predictors</div>
+                            <p><strong>y = β₀ + β₁x₁ + β₂x₂ + ... + βₙxₙ + ε</strong></p>
+                            <p>Each coefficient represents the effect of that variable <em>holding all others constant</em>.</p>
+                        </div>
+                        <div class="insight warning">
+                            <div class="insight-header">Watch for Multicollinearity</div>
+                            <p>When predictors are highly correlated with each other:</p>
+                            <ul>
+                                <li>Coefficients become unstable</li>
+                                <li>Can't interpret individual feature importance</li>
+                                <li><strong>Solution:</strong> Check VIF (Variance Inflation Factor)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== WEEK 3 ==================== -->
         <section id="week3" class="stage-section">
             <div class="stage-header">
-                <span class="stage-badge stage-2">WEEK 3</span>
-                <h2>Ethics, GDPR & Selecting Statistical Methods</h2>
-                <p class="stage-desc">Taking a critical approach: data ethics, bias mitigation, GDPR compliance, and choosing between parametric vs non-parametric methods.</p>
+                <span class="stage-badge">WEEK 3</span>
+                <h2>Taking a Critical Approach to Selecting Statistical Techniques</h2>
+                <p class="stage-desc">Ethics in data science, bias mitigation, and choosing between parametric and non-parametric methods.</p>
             </div>
 
-            <!-- Item 6: Data Ethics -->
+            <!-- 3.1.1 Recognising Ethical Implications -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-6">
+                        <input type="checkbox" data-id="c1-3-1">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#6</span>
-                        <h3>Data Ethics: The Moral Compass of Data Science</h3>
-                    </div>
-                    <button class="expand-btn" aria-label="Toggle details">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6,9 12,15 18,9"></polyline>
-                        </svg>
-                    </button>
-                </div>
-                <div class="card-content">
-                    <div class="instructor-quote">
-                        AI and data science is a minefield of opportunity. Any business that doesn't take advantage of it, their competitors will. But just because we can do something, should we do it? HR needs to arm its workforce with the moral compass to do this job. You have access to information and data and the ability to tease out information that, in many cases, may not be appropriate.
-                        <span class="quote-source">— Robert Hardman, Chief AI and Innovation Officer, Inchcape Digital</span>
-                    </div>
-                    <div class="insights-grid">
-                        <div class="insight pass">
-                            <div class="insight-header">Core Principles</div>
-                            <p><strong>Transparency:</strong> Be clear about data collection and use.<br>
-                            <strong>Consent:</strong> Obtain explicit permission.<br>
-                            <strong>Purpose Limitation:</strong> Only collect what you need.<br>
-                            <strong>Data Minimization:</strong> Store only necessary data.<br>
-                            <strong>Accountability:</strong> Take responsibility for data handling.</p>
-                        </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Warning Signs</div>
-                            <p>Using data for purposes beyond original consent.<br>
-                            Keeping data longer than necessary.<br>
-                            Ignoring the potential for algorithmic discrimination.<br>
-                            "We've always done it this way" mentality.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Item 7: GDPR -->
-            <div class="rubric-card">
-                <div class="card-header">
-                    <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-7">
-                        <span class="checkmark"></span>
-                    </label>
-                    <div class="card-title-area">
-                        <span class="item-number">#7</span>
-                        <h3>GDPR: General Data Protection Regulation</h3>
+                        <span class="item-number">3.1.1</span>
+                        <h3>Recognising Ethical Implications</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -402,33 +759,33 @@ print(f"R² Score: {r2_score(y_test, model.predict(X_test)):.4f}")</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Key Rights Under GDPR</div>
-                            <p><strong>Right to Access:</strong> Request copies of personal data.<br>
-                            <strong>Right to Erasure:</strong> "Right to be forgotten."<br>
-                            <strong>Right to Portability:</strong> Transfer data to another service.<br>
-                            <strong>Right to Object:</strong> Object to automated decision-making (ML/AI).<br>
-                            <strong>Applies globally:</strong> Any company serving EU citizens.</p>
+                            <div class="insight-header">Robert Hardman Quote</div>
+                            <blockquote>"AI and data science is a minefield of opportunity. Any business that doesn't take advantage of it, their competitors will. So, it's not even optional. But just because we can do something, should we do it?"</blockquote>
+                            <p>— Robert Hardman, Chief AI and Innovation Transformation Officer at Inchcape Digital</p>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Data Classification</div>
-                            <p><strong>Personal Data:</strong> Any info identifying an individual.<br>
-                            <strong>Sensitive Data:</strong> Medical, financial, biometric - requires higher protection.<br>
-                            Penalties: Up to €20M or 4% of global revenue.</p>
+                        <div class="insight warning">
+                            <div class="insight-header">Cambridge Analytica Case Study</div>
+                            <ul>
+                                <li>Harvested data from millions of Facebook users <strong>without consent</strong></li>
+                                <li>Built psychological profiles for targeted political advertising</li>
+                                <li>Allegedly used to influence 2016 US election and Brexit</li>
+                                <li><strong>Key violation:</strong> Breach of privacy, manipulation of democratic processes</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 8: Data De-identification -->
+            <!-- 3.1.2 GDPR and Data Protection -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-8">
+                        <input type="checkbox" data-id="c1-3-2">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#8</span>
-                        <h3>Data De-identification Techniques</h3>
+                        <span class="item-number">3.1.2</span>
+                        <h3>GDPR and Data Protection Laws</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -439,34 +796,39 @@ print(f"R² Score: {r2_score(y_test, model.predict(X_test)):.4f}")</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Techniques</div>
-                            <p><strong>Anonymization:</strong> Permanently remove identifiers (irreversible).<br>
-                            <strong>Pseudonymization:</strong> Replace identifiers with codes (reversible with key).<br>
-                            <strong>Data Masking:</strong> Hide portions (e.g., XXX-XXX-1234).<br>
-                            <strong>Aggregation:</strong> Report only group statistics.<br>
-                            <strong>K-anonymity:</strong> Ensure each record matches at least k-1 others.</p>
+                            <div class="insight-header">GDPR Key Principles</div>
+                            <ul>
+                                <li><strong>Consent:</strong> Explicit permission required for data collection</li>
+                                <li><strong>Purpose limitation:</strong> Use data only for stated purposes</li>
+                                <li><strong>Data minimization:</strong> Collect only what's necessary</li>
+                                <li><strong>Right to be forgotten:</strong> Users can request deletion</li>
+                                <li><strong>Right to access:</strong> Users can request their data</li>
+                                <li><strong>Right to object:</strong> Users can object to automated decisions</li>
+                            </ul>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Use Cases</div>
-                            <p>Healthcare: Share research data without patient identification.<br>
-                            Finance: Analyze transactions without exposing account details.<br>
-                            HR: Salary analysis without individual exposure.</p>
+                        <div class="insight pass">
+                            <div class="insight-header">Data De-identification Strategies</div>
+                            <ul>
+                                <li><strong>Anonymization:</strong> Completely remove identifiers</li>
+                                <li><strong>Pseudonymization:</strong> Replace identifiers with codes</li>
+                                <li><strong>Aggregation:</strong> Report only group statistics</li>
+                                <li><strong>K-anonymity:</strong> Ensure each record is indistinguishable from k-1 others</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 9: Bias in Data Modelling -->
-            <div class="rubric-card highlight">
+            <!-- 3.1.3 Mitigating Bias -->
+            <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-9">
+                        <input type="checkbox" data-id="c1-3-3">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#9</span>
+                        <span class="item-number">3.1.3</span>
                         <h3>Mitigating Bias in Data Modelling</h3>
-                        <span class="highlight-badge">Critical</span>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -476,72 +838,33 @@ print(f"R² Score: {r2_score(y_test, model.predict(X_test)):.4f}")</code></pre>
                 </div>
                 <div class="card-content">
                     <div class="insights-grid">
+                        <div class="insight warning">
+                            <div class="insight-header">Healthcare Algorithm Bias Case</div>
+                            <p>In 2019, a US hospital algorithm favoured white patients over black patients because it used <strong>healthcare spending</strong> as a proxy for health needs. Due to systemic wealth disparities, black patients had historically spent less on healthcare despite similar health conditions.</p>
+                        </div>
                         <div class="insight pass">
                             <div class="insight-header">Types of Bias</div>
-                            <p><strong>Selection Bias:</strong> Non-representative sample.<br>
-                            <strong>Historical Bias:</strong> Data reflects past discrimination.<br>
-                            <strong>Measurement Bias:</strong> Systematic errors in data collection.<br>
-                            <strong>Algorithmic Bias:</strong> Model amplifies existing biases.<br>
-                            <strong>Confirmation Bias:</strong> Seeking data that confirms beliefs.</p>
-                        </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Real-World Example</div>
-                            <p><strong>US Hospital Algorithm (2019):</strong> Used healthcare spending to predict care needs. Black patients spent less due to historical disparities, so algorithm incorrectly assigned them lower risk scores. Result: Systematic under-treatment of Black patients.</p>
-                        </div>
-                    </div>
-                    <div class="key-point">
-                        <strong>Mitigation Strategies:</strong><br>
-                        1. Audit training data for representation<br>
-                        2. Test model outcomes across demographic groups<br>
-                        3. Use fairness metrics (demographic parity, equalized odds)<br>
-                        4. Involve diverse stakeholders in model design
-                    </div>
-                </div>
-            </div>
-
-            <!-- Item 10: Cambridge Analytica Case Study -->
-            <div class="rubric-card">
-                <div class="card-header">
-                    <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-10">
-                        <span class="checkmark"></span>
-                    </label>
-                    <div class="card-title-area">
-                        <span class="item-number">#10</span>
-                        <h3>Case Study: Cambridge Analytica Scandal</h3>
-                    </div>
-                    <button class="expand-btn" aria-label="Toggle details">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6,9 12,15 18,9"></polyline>
-                        </svg>
-                    </button>
-                </div>
-                <div class="card-content">
-                    <div class="insights-grid">
-                        <div class="insight fail">
-                            <div class="insight-header">What Happened</div>
-                            <p>Cambridge Analytica harvested personal data from 87 million Facebook users without consent via a quiz app. Built psychological profiles to target voters with personalized political advertising during 2016 US election and Brexit referendum.</p>
-                        </div>
-                        <div class="insight pass">
-                            <div class="insight-header">Lessons Learned</div>
-                            <p>1. Third-party data sharing needs strict controls.<br>
-                            2. Consent must be explicit and informed.<br>
-                            3. Data can be weaponized against democratic processes.<br>
-                            4. Resulted in Facebook's $5B FTC fine and increased GDPR enforcement.</p>
+                            <ul>
+                                <li><strong>Selection bias:</strong> Non-representative samples</li>
+                                <li><strong>Confirmation bias:</strong> Seeking data that confirms beliefs</li>
+                                <li><strong>Historical bias:</strong> Past discrimination encoded in data</li>
+                                <li><strong>Measurement bias:</strong> Flawed data collection methods</li>
+                                <li><strong>Aggregation bias:</strong> One model for diverse populations</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 11: Parametric vs Non-Parametric -->
+            <!-- 3.2.1 Parametric vs Non-Parametric -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-11">
+                        <input type="checkbox" data-id="c1-3-4">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#11</span>
+                        <span class="item-number">3.2.1</span>
                         <h3>Parametric vs Non-Parametric Methods</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
@@ -553,97 +876,128 @@ print(f"R² Score: {r2_score(y_test, model.predict(X_test)):.4f}")</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Parametric Tests</div>
-                            <p><strong>Assumptions:</strong> Normal distribution, equal variance.<br>
-                            <strong>Examples:</strong> t-test, ANOVA, Pearson correlation, Linear regression.<br>
-                            <strong>Pros:</strong> More statistical power when assumptions met.<br>
-                            <strong>When to use:</strong> Large samples, normally distributed data.</p>
+                            <div class="insight-header">Decision Guide</div>
+                            <table class="comparison-table">
+                                <tr>
+                                    <th>Factor</th>
+                                    <th>Parametric</th>
+                                    <th>Non-Parametric</th>
+                                </tr>
+                                <tr>
+                                    <td>Distribution</td>
+                                    <td>Assumes normal</td>
+                                    <td>Distribution-free</td>
+                                </tr>
+                                <tr>
+                                    <td>Sample size</td>
+                                    <td>Larger (n ≥ 30)</td>
+                                    <td>Any size</td>
+                                </tr>
+                                <tr>
+                                    <td>Data type</td>
+                                    <td>Interval/ratio</td>
+                                    <td>Ordinal/categorical OK</td>
+                                </tr>
+                                <tr>
+                                    <td>Statistical power</td>
+                                    <td>Higher (if assumptions met)</td>
+                                    <td>Lower</td>
+                                </tr>
+                            </table>
                         </div>
                         <div class="insight pass">
-                            <div class="insight-header">Non-Parametric Tests</div>
-                            <p><strong>Assumptions:</strong> None about distribution.<br>
-                            <strong>Examples:</strong> Mann-Whitney U, Kruskal-Wallis, Spearman correlation.<br>
-                            <strong>Pros:</strong> Works with ordinal data, outliers, small samples.<br>
-                            <strong>When to use:</strong> Skewed data, ordinal scales, small n.</p>
+                            <div class="insight-header">Test Equivalents</div>
+                            <table class="comparison-table">
+                                <tr>
+                                    <th>Parametric</th>
+                                    <th>Non-Parametric</th>
+                                </tr>
+                                <tr>
+                                    <td>t-test (2 groups)</td>
+                                    <td>Mann-Whitney U</td>
+                                </tr>
+                                <tr>
+                                    <td>Paired t-test</td>
+                                    <td>Wilcoxon signed-rank</td>
+                                </tr>
+                                <tr>
+                                    <td>ANOVA (3+ groups)</td>
+                                    <td>Kruskal-Wallis</td>
+                                </tr>
+                                <tr>
+                                    <td>Pearson correlation</td>
+                                    <td>Spearman correlation</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                     <div class="code-block">
                         <pre><code class="language-python">from scipy import stats
 
-# Parametric: t-test (assumes normality)
-t_stat, p_val = stats.ttest_ind(group_a, group_b)
+# Mann-Whitney U test (non-parametric t-test alternative)
+u_stat, p_value = stats.mannwhitneyu(group1, group2, alternative='two-sided')
 
-# Non-Parametric: Mann-Whitney U (no distribution assumption)
-u_stat, p_val = stats.mannwhitneyu(group_a, group_b, alternative='two-sided')
+# Wilcoxon signed-rank (non-parametric paired t-test)
+w_stat, p_value = stats.wilcoxon(before, after)
 
-# Choose based on:
-# 1. Check normality with Shapiro-Wilk
-# 2. Check variance with Levene's test
-# 3. Consider sample size</code></pre>
+# Kruskal-Wallis (non-parametric ANOVA)
+h_stat, p_value = stats.kruskal(group1, group2, group3)</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3.2.2 Confounding Variables -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-3-5">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">3.2.5</span>
+                        <h3>Identifying Confounding Variables</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">What is a Confounder?</div>
+                            <p><strong>Caveman:</strong> A hidden third variable that makes two unrelated things look connected.</p>
+                            <p>A confounding variable affects both the independent variable AND the dependent variable, creating a spurious correlation.</p>
+                        </div>
+                        <div class="insight warning">
+                            <div class="insight-header">Classic Example</div>
+                            <p><strong>Ice cream sales correlate with drowning deaths.</strong></p>
+                            <p>Confounder: <strong>Hot weather</strong> increases both!</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- WEEK 4: Feature Engineering & Dimensionality Reduction -->
+        <!-- ==================== WEEK 4 ==================== -->
         <section id="week4" class="stage-section">
             <div class="stage-header">
-                <span class="stage-badge stage-3">WEEK 4</span>
-                <h2>Feature Engineering & Dimensionality Reduction</h2>
-                <p class="stage-desc">Transforming raw data into meaningful features and reducing complexity with PCA and t-SNE.</p>
+                <span class="stage-badge">WEEK 4</span>
+                <h2>Engineering Features and Reducing Dimensions</h2>
+                <p class="stage-desc">Feature engineering, handling categorical data, multicollinearity, and dimensionality reduction with PCA and t-SNE.</p>
             </div>
 
-            <!-- Item 12: Feature Engineering Fundamentals -->
+            <!-- 4.1.1 Introduction to Feature Engineering -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-12">
+                        <input type="checkbox" data-id="c1-4-1">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#12</span>
-                        <h3>Feature Engineering: The Art of Data Transformation</h3>
-                    </div>
-                    <button class="expand-btn" aria-label="Toggle details">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6,9 12,15 18,9"></polyline>
-                        </svg>
-                    </button>
-                </div>
-                <div class="card-content">
-                    <div class="instructor-quote">
-                        Feature engineering is the process of transforming raw data into a format that is more suitable for statistical and machine learning models. Having well-defined features in a data set is imperative for success in the performance and accuracy of these models.
-                        <span class="quote-source">— PACE Course Lecture</span>
-                    </div>
-                    <div class="insights-grid">
-                        <div class="insight pass">
-                            <div class="insight-header">Key Techniques</div>
-                            <p><strong>Encoding:</strong> Convert categorical → numerical.<br>
-                            <strong>Scaling:</strong> Normalize/standardize numerical features.<br>
-                            <strong>Binning:</strong> Group continuous values into categories.<br>
-                            <strong>Interaction:</strong> Create features from combinations.<br>
-                            <strong>Extraction:</strong> Pull info from dates, text, etc.</p>
-                        </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Common Pitfalls</div>
-                            <p>Data leakage: Using test data for transformations.<br>
-                            Over-engineering: Creating too many features.<br>
-                            Ignoring domain knowledge in feature creation.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Item 13: One-Hot Encoding -->
-            <div class="rubric-card">
-                <div class="card-header">
-                    <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-13">
-                        <span class="checkmark"></span>
-                    </label>
-                    <div class="card-title-area">
-                        <span class="item-number">#13</span>
-                        <h3>Encoding: Label vs One-Hot vs Ordinal</h3>
+                        <span class="item-number">4.1.1</span>
+                        <h3>Introduction to Feature Engineering</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -654,45 +1008,76 @@ u_stat, p_val = stats.mannwhitneyu(group_a, group_b, alternative='two-sided')
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">When to Use Each</div>
-                            <p><strong>One-Hot:</strong> Nominal categories (color, country). Creates binary columns.<br>
-                            <strong>Label:</strong> Target variable or tree-based models. Maps to integers.<br>
-                            <strong>Ordinal:</strong> Categories with natural order (low/med/high). Preserves ranking.</p>
+                            <div class="insight-header">What Is Feature Engineering?</div>
+                            <p><strong>Caveman:</strong> Making your data better so the model doesn't have to work as hard.</p>
+                            <p>Feature engineering transforms raw data into a format more suitable for ML models. Well-defined features are imperative for model performance and accuracy.</p>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">The Explosion Problem</div>
-                            <p>One-hot encoding can explode feature count (100 categories = 100 columns).<br>
-                            Solution: Drop one column (reference category) or use target encoding.</p>
+                        <div class="insight pass">
+                            <div class="insight-header">Shanup Live Session Insight</div>
+                            <blockquote>"When feature engineering is done correctly, the resulting data set is optimal and contains all the important factors from raw data that affect the business problem."</blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4.1.3 Data Cleaning: Missing Values -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-4-2">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">4.1.3</span>
+                        <h3>Data Cleaning: Missing Values and Imputation</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">Imputation Strategies</div>
+                            <ul>
+                                <li><strong>Mean/Median:</strong> Simple, but ignores relationships</li>
+                                <li><strong>Mode:</strong> For categorical data</li>
+                                <li><strong>Forward/Backward fill:</strong> For time series</li>
+                                <li><strong>KNN Imputation:</strong> Uses similar rows</li>
+                                <li><strong>MICE:</strong> Multiple imputation, sophisticated</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
-                        <pre><code class="language-python"># One-Hot Encoding (drop_first to avoid multicollinearity)
-encoded = pd.get_dummies(df['category'], drop_first=True)
+                        <pre><code class="language-python">import pandas as pd
+from sklearn.impute import SimpleImputer, KNNImputer
 
-# Label Encoding
-from sklearn.preprocessing import LabelEncoder
-le = LabelEncoder()
-df['category_encoded'] = le.fit_transform(df['category'])
+# Check missing values
+df.isnull().sum()
 
-# Ordinal Encoding
-from sklearn.preprocessing import OrdinalEncoder
-oe = OrdinalEncoder(categories=[['low', 'medium', 'high']])
-df['ordinal'] = oe.fit_transform(df[['rating']])</code></pre>
+# Mean imputation
+imputer = SimpleImputer(strategy='mean')
+df_imputed = pd.DataFrame(imputer.fit_transform(df), columns=df.columns)
+
+# KNN imputation
+knn_imputer = KNNImputer(n_neighbors=5)
+df_knn = pd.DataFrame(knn_imputer.fit_transform(df), columns=df.columns)</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 14: VIF and Multicollinearity -->
-            <div class="rubric-card highlight">
+            <!-- 4.1.5 Categorical Data -->
+            <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-14">
+                        <input type="checkbox" data-id="c1-4-3">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#14</span>
-                        <h3>VIF: Variance Inflation Factor & Multicollinearity</h3>
-                        <span class="highlight-badge">Important</span>
+                        <span class="item-number">4.1.5</span>
+                        <h3>Dealing with Categorical Data: One-Hot vs Label Encoding</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -701,51 +1086,178 @@ df['ordinal'] = oe.fit_transform(df[['rating']])</code></pre>
                     </button>
                 </div>
                 <div class="card-content">
-                    <div class="instructor-quote">
-                        VIF does not look at the target variable. Mutual Information, on the other hand, looks at the target variable. RFE looks at it in totality - it gives you the best predictive accuracy. But be aware that multicollinearity is sitting in there. Don't be fooled.
-                        <span class="quote-source">— PACE Live Session (Shanup)</span>
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">Ordinal vs Nominal</div>
+                            <p><strong>Shanup:</strong> "If you talk about the number of doors a car has—one, two, three, four—you could write it as numbers or as text. That's ordinal data. Whether it matters to price? Let the model decide."</p>
+                            <ul>
+                                <li><strong>Ordinal:</strong> Has natural order (small < medium < large)</li>
+                                <li><strong>Nominal:</strong> No order (red, blue, green)</li>
+                            </ul>
+                        </div>
+                        <div class="insight warning">
+                            <div class="insight-header">One-Hot Encoding Problem</div>
+                            <p><strong>Shanup:</strong> "The biggest problem with one-hot encoding is that as soon as you do it, the whole feature set explodes."</p>
+                            <ul>
+                                <li>Creates column explosion (high cardinality)</li>
+                                <li>Can introduce <strong>artificial multicollinearity</strong></li>
+                                <li><strong>Solution:</strong> Drop one column per categorical feature</li>
+                            </ul>
+                        </div>
                     </div>
+                    <div class="code-block">
+                        <pre><code class="language-python"># One-hot encoding with drop_first to avoid multicollinearity
+df_encoded = pd.get_dummies(df, columns=['color'], drop_first=True)
+
+# Label encoding for ordinal data
+from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
+
+# LabelEncoder for single column
+le = LabelEncoder()
+df['size_encoded'] = le.fit_transform(df['size'])
+
+# OrdinalEncoder with custom order
+oe = OrdinalEncoder(categories=[['small', 'medium', 'large']])
+df['size_ordered'] = oe.fit_transform(df[['size']])</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4.1.6 Feature Scaling -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-4-4">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">4.1.6</span>
+                        <h3>Feature Scaling: Normalisation and Standardisation</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">When to Scale</div>
+                            <ul>
+                                <li><strong>Distance-based algorithms:</strong> KNN, K-means, SVM</li>
+                                <li><strong>Gradient descent:</strong> Neural networks, logistic regression</li>
+                                <li><strong>PCA:</strong> Sensitive to variance differences</li>
+                            </ul>
+                        </div>
+                        <div class="insight pass">
+                            <div class="insight-header">StandardScaler vs MinMaxScaler</div>
+                            <table class="comparison-table">
+                                <tr>
+                                    <th>StandardScaler</th>
+                                    <th>MinMaxScaler</th>
+                                </tr>
+                                <tr>
+                                    <td>z = (x - μ) / σ</td>
+                                    <td>x' = (x - min) / (max - min)</td>
+                                </tr>
+                                <tr>
+                                    <td>Mean = 0, Std = 1</td>
+                                    <td>Range [0, 1]</td>
+                                </tr>
+                                <tr>
+                                    <td>Handles outliers better</td>
+                                    <td>Sensitive to outliers</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="code-block">
+                        <pre><code class="language-python">from sklearn.preprocessing import StandardScaler, MinMaxScaler
+
+# StandardScaler (z-score normalization)
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+# MinMaxScaler (0-1 range)
+minmax = MinMaxScaler()
+X_minmax = minmax.fit_transform(X)
+
+# IMPORTANT: fit on training data, transform on both
+scaler.fit(X_train)
+X_train_scaled = scaler.transform(X_train)
+X_test_scaled = scaler.transform(X_test)  # Use same scaler!</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4.1.7 VIF for Multicollinearity -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-4-5">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">4.1.7</span>
+                        <h3>VIF: Detecting Multicollinearity</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
                             <div class="insight-header">What VIF Tells You</div>
-                            <p><strong>VIF = 1:</strong> No correlation with other features.<br>
-                            <strong>VIF 1-5:</strong> Moderate correlation (usually acceptable).<br>
-                            <strong>VIF > 5:</strong> High correlation (investigate).<br>
-                            <strong>VIF > 10:</strong> Severe multicollinearity (remove feature).</p>
+                            <p><strong>Shanup:</strong> "VIF only looks at multicollinearity. It does not care about predictability. It tells you if features are moving together, same direction or opposite direction."</p>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Why Multicollinearity is Bad</div>
-                            <p>Cannot isolate individual feature effects.<br>
-                            Coefficient estimates become unstable.<br>
-                            "If I double marketing spend, revenue increases 10x" - but another correlated feature might be the real driver!</p>
+                        <div class="insight warning">
+                            <div class="insight-header">Why Multicollinearity Matters</div>
+                            <p><strong>Shanup:</strong> "When there is multicollinearity, you cannot isolate the effect of each variable on the target. Your boss trusts you and doubles marketing spend expecting 10x revenue, but there's another correlated factor you didn't account for. That's the biggest damage."</p>
+                        </div>
+                        <div class="insight pass">
+                            <div class="insight-header">VIF Thresholds</div>
+                            <ul>
+                                <li><strong>VIF = 1:</strong> No correlation</li>
+                                <li><strong>VIF &lt; 5:</strong> Generally acceptable</li>
+                                <li><strong>VIF ≥ 5-10:</strong> Problematic</li>
+                                <li><strong>Remove one feature at a time</strong>, recalculate VIF</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
                         <pre><code class="language-python">from statsmodels.stats.outliers_influence import variance_inflation_factor
+import pandas as pd
 
-# Calculate VIF for each feature
-vif_data = pd.DataFrame()
-vif_data['Feature'] = X.columns
-vif_data['VIF'] = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]
-vif_data = vif_data.sort_values('VIF', ascending=False)
-print(vif_data)
+def calculate_vif(df):
+    vif_data = pd.DataFrame()
+    vif_data["Feature"] = df.columns
+    vif_data["VIF"] = [variance_inflation_factor(df.values, i)
+                       for i in range(df.shape[1])]
+    return vif_data.sort_values('VIF', ascending=False)
 
-# Remove features with VIF > 5 iteratively
-# Don't remove all at once - recalculate after each removal!</code></pre>
+# Calculate VIF
+vif_results = calculate_vif(X)
+print(vif_results)
+
+# Remove highest VIF feature iteratively until all VIF < 5</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 15: Mutual Information -->
+            <!-- 4.1.8 Mutual Information and RFE -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-15">
+                        <input type="checkbox" data-id="c1-4-6">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#15</span>
-                        <h3>Mutual Information: Feature Importance Without Assumptions</h3>
+                        <span class="item-number">4.1.8</span>
+                        <h3>Feature Selection: MI vs RFE vs VIF</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -756,45 +1268,66 @@ print(vif_data)
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">What It Does</div>
-                            <p>Measures how much knowing one variable tells you about another.<br>
-                            Works with both linear AND non-linear relationships.<br>
-                            MI = 0: Independent (knowing X tells nothing about Y).<br>
-                            Higher MI = Stronger relationship.</p>
+                            <div class="insight-header">Shanup's Breakdown</div>
+                            <table class="comparison-table">
+                                <tr>
+                                    <th>Technique</th>
+                                    <th>What It Does</th>
+                                    <th>Limitation</th>
+                                </tr>
+                                <tr>
+                                    <td><strong>VIF</strong></td>
+                                    <td>Multicollinearity between features</td>
+                                    <td>Ignores target variable</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>MI</strong></td>
+                                    <td>Feature importance to target</td>
+                                    <td>Individual only, no interactions</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>RFE</strong></td>
+                                    <td>Model-based selection, totality</td>
+                                    <td>May keep multicollinear features</td>
+                                </tr>
+                            </table>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Limitation</div>
-                            <p>Looks at features <strong>individually</strong> vs target.<br>
-                            Misses interaction effects (feature A alone = weak, A + B together = strong).<br>
-                            Use alongside VIF and RFE for complete picture.</p>
+                        <div class="insight warning">
+                            <div class="insight-header">Shanup's Advice</div>
+                            <blockquote>"Each technique gives you a different piece of the puzzle. None gives you the complete picture. As data scientists, we need to have bits of information coming from different sides and put them together for the best possible answer."</blockquote>
                         </div>
                     </div>
                     <div class="code-block">
-                        <pre><code class="language-python">from sklearn.feature_selection import mutual_info_classif, mutual_info_regression
+                        <pre><code class="language-python">from sklearn.feature_selection import mutual_info_classif, RFE
+from sklearn.linear_model import LogisticRegression
 
-# For classification problems
-mi_scores = mutual_info_classif(X, y, random_state=42)
+# Mutual Information
+mi_scores = mutual_info_classif(X, y)
+mi_df = pd.DataFrame({'Feature': X.columns, 'MI': mi_scores})
+print(mi_df.sort_values('MI', ascending=False))
 
-# For regression problems
-mi_scores = mutual_info_regression(X, y, random_state=42)
+# Recursive Feature Elimination
+model = LogisticRegression()
+rfe = RFE(model, n_features_to_select=10)
+rfe.fit(X, y)
 
-# Create ranked dataframe
-mi_df = pd.DataFrame({'Feature': X.columns, 'MI Score': mi_scores})
-mi_df = mi_df.sort_values('MI Score', ascending=False)</code></pre>
+# Selected features
+selected = X.columns[rfe.support_]
+print(f"RFE selected: {list(selected)}")</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 16: PCA -->
+            <!-- 4.2.1 PCA -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-16">
+                        <input type="checkbox" data-id="c1-4-7">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#16</span>
-                        <h3>PCA: Principal Component Analysis</h3>
+                        <span class="item-number">4.2.2</span>
+                        <h3>Principal Component Analysis (PCA)</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -806,46 +1339,57 @@ mi_df = mi_df.sort_values('MI Score', ascending=False)</code></pre>
                     <div class="insights-grid">
                         <div class="insight pass">
                             <div class="insight-header">What PCA Does</div>
-                            <p>Reduces dimensions while preserving maximum variance.<br>
-                            Creates new uncorrelated features (principal components).<br>
-                            PC1 captures most variance, PC2 next most, etc.<br>
-                            <strong>Use for:</strong> Reducing 100+ features to manageable set, visualization, removing multicollinearity.</p>
+                            <p><strong>Caveman:</strong> Squashes many dimensions into fewer while keeping the important stuff.</p>
+                            <p>PCA finds new axes (principal components) that capture maximum variance. PC1 captures most variance, PC2 captures next most, etc.</p>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Requirements & Limitations</div>
-                            <p><strong>Must scale data first!</strong> PCA is sensitive to feature scales.<br>
-                            Loses interpretability - what is "PC3"?<br>
-                            Assumes linear relationships between features.</p>
+                        <div class="insight warning">
+                            <div class="insight-header">Shanup on PCA Tradeoffs</div>
+                            <blockquote>"Once you do PCA transformation, you lose all interpretability. The features become PC1, PC2, PC3. You cannot tell your boss 'increase PC1 to increase revenue.' But multicollinearity is gone—all components are orthogonal."</blockquote>
+                        </div>
+                        <div class="insight pass">
+                            <div class="insight-header">When to Use PCA</div>
+                            <ul>
+                                <li>Reduce computation time (many features)</li>
+                                <li>Handle multicollinearity</li>
+                                <li>Visualize high-dimensional data in 2D/3D</li>
+                                <li>When interpretability isn't critical</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
                         <pre><code class="language-python">from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
 
-# MUST scale first!
+# IMPORTANT: Scale before PCA (variance-sensitive)
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# Fit PCA - keep 95% of variance
-pca = PCA(n_components=0.95)
+# Fit PCA
+pca = PCA()
 X_pca = pca.fit_transform(X_scaled)
 
-print(f"Reduced from {X.shape[1]} to {X_pca.shape[1]} features")
-print(f"Explained variance: {pca.explained_variance_ratio_}")</code></pre>
+# Explained variance ratio
+print("Explained variance:", pca.explained_variance_ratio_)
+print("Cumulative:", np.cumsum(pca.explained_variance_ratio_))
+
+# Choose components that explain 95% variance
+pca_95 = PCA(n_components=0.95)
+X_reduced = pca_95.fit_transform(X_scaled)</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 17: t-SNE -->
+            <!-- 4.2.3 t-SNE -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-17">
+                        <input type="checkbox" data-id="c1-4-8">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#17</span>
-                        <h3>t-SNE: Visualization of High-Dimensional Data</h3>
+                        <span class="item-number">4.2.3</span>
+                        <h3>t-SNE: Non-Linear Dimensionality Reduction</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -856,18 +1400,38 @@ print(f"Explained variance: {pca.explained_variance_ratio_}")</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">What t-SNE Does</div>
-                            <p>Non-linear dimensionality reduction for visualization.<br>
-                            Preserves local structure - similar points stay close.<br>
-                            Excellent for visualizing clusters in 2D/3D.<br>
-                            Key parameter: <strong>perplexity</strong> (typically 5-50).</p>
+                            <div class="insight-header">PCA vs t-SNE</div>
+                            <p><strong>Shanup:</strong> "PCA is linear—good for computation and removing multicollinearity. t-SNE is non-linear—it retains clustering information even when reducing from 1000 dimensions to 2."</p>
+                            <table class="comparison-table">
+                                <tr>
+                                    <th>PCA</th>
+                                    <th>t-SNE</th>
+                                </tr>
+                                <tr>
+                                    <td>Linear</td>
+                                    <td>Non-linear</td>
+                                </tr>
+                                <tr>
+                                    <td>Preserves variance</td>
+                                    <td>Preserves local structure</td>
+                                </tr>
+                                <tr>
+                                    <td>Fast, deterministic</td>
+                                    <td>Slow, stochastic</td>
+                                </tr>
+                                <tr>
+                                    <td>Computation/preprocessing</td>
+                                    <td>Visualization only</td>
+                                </tr>
+                            </table>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Limitations</div>
-                            <p>Computationally expensive - slow on large datasets.<br>
-                            Not deterministic - different runs give different results.<br>
-                            <strong>For visualization only</strong> - don't use output as features for models!<br>
-                            Global structure may not be preserved.</p>
+                        <div class="insight warning">
+                            <div class="insight-header">t-SNE Limitations</div>
+                            <ul>
+                                <li>Only for visualization (2D/3D)</li>
+                                <li>Cannot use for prediction pipeline</li>
+                                <li>Results vary with perplexity and random state</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
@@ -878,10 +1442,10 @@ import matplotlib.pyplot as plt
 tsne = TSNE(n_components=2, perplexity=30, random_state=42)
 X_tsne = tsne.fit_transform(X_scaled)
 
-# Visualize
+# Plot with colors for classes
 plt.figure(figsize=(10, 8))
-plt.scatter(X_tsne[:, 0], X_tsne[:, 1], c=y, cmap='viridis')
-plt.colorbar()
+scatter = plt.scatter(X_tsne[:, 0], X_tsne[:, 1], c=y, cmap='viridis', alpha=0.6)
+plt.colorbar(scatter)
 plt.title('t-SNE Visualization')
 plt.show()</code></pre>
                     </div>
@@ -889,24 +1453,24 @@ plt.show()</code></pre>
             </div>
         </section>
 
-        <!-- WEEK 5: Anomaly Detection -->
+        <!-- ==================== WEEK 5 ==================== -->
         <section id="week5" class="stage-section">
             <div class="stage-header">
-                <span class="stage-badge" style="background: #06b6d4;">WEEK 5</span>
-                <h2>Anomaly Detection with Unsupervised Learning</h2>
-                <p class="stage-desc">Detecting outliers using statistical methods (Z-score, IQR) and ML methods (k-means, One-Class SVM, Isolation Forest).</p>
+                <span class="stage-badge">WEEK 5</span>
+                <h2>Detecting Anomalies with Unsupervised Learning</h2>
+                <p class="stage-desc">Statistical and ML-based methods for identifying outliers: z-score, IQR, k-means, One-Class SVM, and Isolation Forest.</p>
             </div>
 
-            <!-- Item 18: Anomaly Types -->
+            <!-- 5.1.1 Introduction to Anomaly Detection -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-18">
+                        <input type="checkbox" data-id="c1-5-1">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#18</span>
-                        <h3>Types of Anomalies: Point, Collective, Contextual</h3>
+                        <span class="item-number">5.1.1</span>
+                        <h3>Types of Anomalies</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -917,32 +1481,36 @@ plt.show()</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Three Types</div>
-                            <p><strong>Point Anomaly:</strong> Single observation far from others. A $1M deposit in a checking account.<br>
-                            <strong>Collective Anomaly:</strong> Group of related observations that together are unusual. Multiple small purchases from different locations in 1 hour.<br>
-                            <strong>Contextual Anomaly:</strong> Normal in one context, anomalous in another. High web traffic during a sale = normal. Same traffic at 3am = suspicious.</p>
+                            <div class="insight-header">Three Types of Anomalies</div>
+                            <ul>
+                                <li><strong>Point anomaly:</strong> Single observation differs significantly (e.g., deposit 10x normal income)</li>
+                                <li><strong>Collective anomaly:</strong> Group of observations show unusual pattern (e.g., sequence of small purchases indicating fraud)</li>
+                                <li><strong>Contextual anomaly:</strong> Unusual in specific context (e.g., web traffic spike normal during sale, anomaly otherwise)</li>
+                            </ul>
                         </div>
-                        <div class="insight fail">
+                        <div class="insight pass">
                             <div class="insight-header">Business Applications</div>
-                            <p>Fraud detection (banking, insurance)<br>
-                            Manufacturing quality control<br>
-                            Network intrusion detection<br>
-                            Healthcare patient monitoring</p>
+                            <ul>
+                                <li><strong>Finance:</strong> Fraud detection</li>
+                                <li><strong>Cybersecurity:</strong> Intrusion detection</li>
+                                <li><strong>Manufacturing:</strong> Equipment failure prediction</li>
+                                <li><strong>Healthcare:</strong> Abnormal patient readings</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 19: Z-Score Method -->
+            <!-- 5.1.2 Z-Score Method -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-19">
+                        <input type="checkbox" data-id="c1-5-2">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#19</span>
-                        <h3>Z-Score Method for Anomaly Detection</h3>
+                        <span class="item-number">5.1.2</span>
+                        <h3>Anomaly Detection with Z-Score</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -953,17 +1521,18 @@ plt.show()</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">How It Works</div>
-                            <p><strong>Z = (x - μ) / σ</strong><br>
-                            Measures how many standard deviations from the mean.<br>
-                            <strong>Threshold:</strong> |Z| > 3 = anomaly (covers 99.7% of normal data).<br>
-                            <strong>Requirement:</strong> Data must be normally distributed!</p>
+                            <div class="insight-header">Z-Score Formula</div>
+                            <p><strong>z = (x - μ) / σ</strong></p>
+                            <p>Measures how many standard deviations from the mean.</p>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Threshold Trade-off</div>
-                            <p>|Z| > 3: Catches fewer anomalies (high precision).<br>
-                            |Z| > 2: Catches more anomalies (high recall).<br>
-                            Choose based on business cost of false positives vs missed anomalies.</p>
+                        <div class="insight warning">
+                            <div class="insight-header">Threshold Selection</div>
+                            <ul>
+                                <li><strong>|z| > 3:</strong> Common threshold (0.3% probability)</li>
+                                <li><strong>|z| > 2:</strong> More sensitive (5% probability)</li>
+                                <li><strong>Requires:</strong> Normal distribution</li>
+                            </ul>
+                            <p>Threshold depends on business context!</p>
                         </div>
                     </div>
                     <div class="code-block">
@@ -971,26 +1540,30 @@ plt.show()</code></pre>
 import numpy as np
 
 # Calculate z-scores
-z_scores = np.abs(stats.zscore(df['column']))
+z_scores = stats.zscore(data)
 
-# Flag anomalies (threshold = 3)
+# Identify anomalies (threshold = 3)
 threshold = 3
-anomalies = df[z_scores > threshold]
-print(f"Found {len(anomalies)} anomalies out of {len(df)} rows")</code></pre>
+anomalies = np.abs(z_scores) > threshold
+
+print(f"Found {anomalies.sum()} anomalies")
+
+# Get anomaly indices
+anomaly_indices = np.where(anomalies)[0]</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 20: IQR Method -->
+            <!-- 5.1.3 IQR Method -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-20">
+                        <input type="checkbox" data-id="c1-5-3">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#20</span>
-                        <h3>IQR Method: Robust to Non-Normal Data</h3>
+                        <span class="item-number">5.1.3</span>
+                        <h3>Anomaly Detection with IQR</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1001,43 +1574,53 @@ print(f"Found {len(anomalies)} anomalies out of {len(df)} rows")</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">How It Works</div>
-                            <p><strong>IQR = Q3 - Q1</strong><br>
-                            Lower bound: Q1 - 1.5 × IQR<br>
-                            Upper bound: Q3 + 1.5 × IQR<br>
-                            Anything outside bounds = anomaly.<br>
-                            <strong>Extreme anomaly:</strong> Beyond 3 × IQR.</p>
+                            <div class="insight-header">IQR Method</div>
+                            <p><strong>Caveman:</strong> Use the middle 50% of data to define what's "normal."</p>
+                            <ul>
+                                <li><strong>IQR = Q3 - Q1</strong></li>
+                                <li><strong>Lower bound = Q1 - 1.5 × IQR</strong></li>
+                                <li><strong>Upper bound = Q3 + 1.5 × IQR</strong></li>
+                                <li><strong>Extreme outlier:</strong> Beyond 3 × IQR</li>
+                            </ul>
                         </div>
                         <div class="insight pass">
-                            <div class="insight-header">When to Use IQR</div>
-                            <p>Data is skewed (salaries, house prices).<br>
-                            Outliers would distort mean/std dev.<br>
-                            No assumption about distribution required.</p>
+                            <div class="insight-header">When to Use IQR vs Z-Score</div>
+                            <ul>
+                                <li><strong>IQR:</strong> Non-normal data, skewed distributions</li>
+                                <li><strong>Z-Score:</strong> Normal distributions</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
-                        <pre><code class="language-python">Q1 = df['column'].quantile(0.25)
-Q3 = df['column'].quantile(0.75)
-IQR = Q3 - Q1
+                        <pre><code class="language-python">import numpy as np
 
-lower_bound = Q1 - 1.5 * IQR
-upper_bound = Q3 + 1.5 * IQR
+def detect_outliers_iqr(data, multiplier=1.5):
+    Q1 = np.percentile(data, 25)
+    Q3 = np.percentile(data, 75)
+    IQR = Q3 - Q1
 
-anomalies = df[(df['column'] < lower_bound) | (df['column'] > upper_bound)]
-normal_data = df[(df['column'] >= lower_bound) & (df['column'] <= upper_bound)]</code></pre>
+    lower_bound = Q1 - multiplier * IQR
+    upper_bound = Q3 + multiplier * IQR
+
+    outliers = (data < lower_bound) | (data > upper_bound)
+    return outliers, lower_bound, upper_bound
+
+outliers, lb, ub = detect_outliers_iqr(data)
+print(f"Lower bound: {lb}, Upper bound: {ub}")
+print(f"Outliers: {outliers.sum()}")</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 21: K-Means for Anomaly Detection -->
+            <!-- 5.2.2 K-Means for Anomaly Detection -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-21">
+                        <input type="checkbox" data-id="c1-5-4">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#21</span>
+                        <span class="item-number">5.2.2</span>
                         <h3>K-Means Clustering for Anomaly Detection</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
@@ -1049,49 +1632,52 @@ normal_data = df[(df['column'] >= lower_bound) & (df['column'] <= upper_bound)]<
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">How It Works</div>
-                            <p>1. Cluster data into k groups.<br>
-                            2. Calculate distance from each point to its cluster centroid.<br>
-                            3. Points far from their centroid = anomalies.<br>
-                            Threshold: > 2 standard deviations from cluster mean distance.</p>
+                            <div class="insight-header">Approach</div>
+                            <p>Points far from all cluster centroids are potential anomalies.</p>
+                            <ol>
+                                <li>Run k-means clustering</li>
+                                <li>Calculate distance from each point to nearest centroid</li>
+                                <li>Flag points with large distances as anomalies</li>
+                            </ol>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Limitations</div>
-                            <p>Must choose k in advance.<br>
-                            Assumes spherical clusters of similar size.<br>
-                            Anomalies near centroids may be missed.<br>
-                            Use as preliminary step before more sophisticated methods.</p>
+                        <div class="insight warning">
+                            <div class="insight-header">Caution</div>
+                            <p>Anomalies close to a centroid or forming their own small cluster may not be detected.</p>
                         </div>
                     </div>
                     <div class="code-block">
                         <pre><code class="language-python">from sklearn.cluster import KMeans
-from sklearn.metrics import pairwise_distances
+from sklearn.preprocessing import StandardScaler
+import numpy as np
 
-# Cluster the data
-kmeans = KMeans(n_clusters=3, random_state=42)
-clusters = kmeans.fit_predict(X_scaled)
+# Scale data
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
 
-# Calculate distance to cluster centroid
-distances = pairwise_distances(X_scaled, kmeans.cluster_centers_)
-min_distances = distances.min(axis=1)
+# Fit k-means
+kmeans = KMeans(n_clusters=5, random_state=42)
+kmeans.fit(X_scaled)
 
-# Flag anomalies (> 2 std from mean distance)
-threshold = min_distances.mean() + 2 * min_distances.std()
-anomalies = df[min_distances > threshold]</code></pre>
+# Calculate distances to nearest centroid
+distances = kmeans.transform(X_scaled).min(axis=1)
+
+# Threshold: points beyond 95th percentile
+threshold = np.percentile(distances, 95)
+anomalies = distances > threshold</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 22: One-Class SVM -->
+            <!-- 5.2.3 One-Class SVM -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-22">
+                        <input type="checkbox" data-id="c1-5-5">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#22</span>
-                        <h3>One-Class SVM for Anomaly Detection</h3>
+                        <span class="item-number">5.2.3</span>
+                        <h3>One-Class SVM</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1102,43 +1688,46 @@ anomalies = df[min_distances > threshold]</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Key Parameters</div>
-                            <p><strong>nu:</strong> Upper bound on anomaly fraction (0.05 = expect 5% anomalies).<br>
-                            <strong>gamma:</strong> Controls decision boundary shape. High = tight fit, Low = looser.<br>
-                            <strong>kernel:</strong> RBF (default) works well for non-linear boundaries.</p>
+                            <div class="insight-header">How It Works</div>
+                            <p><strong>Caveman:</strong> Draws a boundary around "normal" data; anything outside is anomalous.</p>
+                            <p>One-Class SVM learns a decision boundary around normal data points in high-dimensional space using the kernel trick.</p>
                         </div>
                         <div class="insight pass">
-                            <div class="insight-header">How It Works</div>
-                            <p>Learns a boundary around "normal" data.<br>
-                            Points outside boundary = anomalies (predicted as -1).<br>
-                            Good for when you only have examples of "normal" class.</p>
+                            <div class="insight-header">Key Parameter: nu</div>
+                            <p><strong>nu:</strong> Upper bound on fraction of training errors and lower bound on fraction of support vectors (0 to 1).</p>
                         </div>
                     </div>
                     <div class="code-block">
                         <pre><code class="language-python">from sklearn.svm import OneClassSVM
+from sklearn.preprocessing import StandardScaler
+
+# Scale data
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
 
 # Fit One-Class SVM
-ocsvm = OneClassSVM(nu=0.05, kernel='rbf', gamma=0.5)
-predictions = ocsvm.fit_predict(X_scaled)
+ocsvm = OneClassSVM(kernel='rbf', nu=0.05)
+ocsvm.fit(X_scaled)
 
-# -1 = anomaly, 1 = normal
-anomalies = df[predictions == -1]
-print(f"Detected {len(anomalies)} anomalies")</code></pre>
+# Predict: 1 = inlier, -1 = outlier
+predictions = ocsvm.predict(X_scaled)
+anomalies = predictions == -1
+
+print(f"Anomalies detected: {anomalies.sum()}")</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 23: Isolation Forest -->
-            <div class="rubric-card highlight">
+            <!-- 5.2.4 Isolation Forest -->
+            <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-23">
+                        <input type="checkbox" data-id="c1-5-6">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#23</span>
-                        <h3>Isolation Forest: State-of-the-Art Anomaly Detection</h3>
-                        <span class="highlight-badge">Recommended</span>
+                        <span class="item-number">5.2.4</span>
+                        <h3>Isolation Forest</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1149,57 +1738,100 @@ print(f"Detected {len(anomalies)} anomalies")</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Why It's Different</div>
-                            <p>Instead of modeling "normal" and finding deviations, it directly isolates anomalies.<br>
-                            Anomalies are easier to isolate (fewer splits needed).<br>
-                            <strong>Fast, scalable, no assumptions about data distribution.</strong></p>
+                            <div class="insight-header">The Intuition</div>
+                            <p><strong>Caveman:</strong> Anomalies are easier to isolate—they need fewer random cuts.</p>
+                            <p>Isolation Forest builds random trees that partition data. Anomalies are isolated quickly (shorter path length) because they're different from the majority.</p>
                         </div>
                         <div class="insight pass">
-                            <div class="insight-header">Key Parameters</div>
-                            <p><strong>contamination:</strong> Expected proportion of anomalies (0.05 = 5%).<br>
-                            <strong>n_estimators:</strong> Number of trees (100 usually enough).<br>
-                            <strong>max_samples:</strong> Samples per tree ('auto' recommended).</p>
+                            <div class="insight-header">Advantages</div>
+                            <ul>
+                                <li>Works well with high-dimensional data</li>
+                                <li>Fast and efficient</li>
+                                <li>No distance calculations needed</li>
+                                <li>Handles mixed feature types</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
                         <pre><code class="language-python">from sklearn.ensemble import IsolationForest
 
-# Fit Isolation Forest
-iso_forest = IsolationForest(
-    contamination=0.05,  # Expect 5% anomalies
-    n_estimators=100,
-    random_state=42
-)
-predictions = iso_forest.fit_predict(X)
+# contamination: expected proportion of outliers
+iso_forest = IsolationForest(contamination=0.05, random_state=42)
+iso_forest.fit(X)
 
-# -1 = anomaly, 1 = normal
-anomalies = df[predictions == -1]
+# Predict: 1 = inlier, -1 = outlier
+predictions = iso_forest.predict(X)
+anomalies = predictions == -1
 
-# Anomaly scores (lower = more anomalous)
+# Anomaly scores (more negative = more anomalous)
 scores = iso_forest.decision_function(X)</code></pre>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- WEEK 6: Clustering -->
+        <!-- ==================== WEEK 6 ==================== -->
         <section id="week6" class="stage-section">
             <div class="stage-header">
-                <span class="stage-badge stage-report">WEEK 6</span>
-                <h2>Clustering with Unsupervised Learning</h2>
-                <p class="stage-desc">Grouping data points into meaningful clusters: K-Means, Hierarchical, DBSCAN, and choosing the right k.</p>
+                <span class="stage-badge">WEEK 6</span>
+                <h2>Performing Clustering with Unsupervised Learning</h2>
+                <p class="stage-desc">K-means and hierarchical clustering for customer segmentation and pattern discovery.</p>
             </div>
 
-            <!-- Item 24: K-Means Clustering -->
+            <!-- 6.1.1 Introduction to Clustering -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-24">
+                        <input type="checkbox" data-id="c1-6-1">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#24</span>
-                        <h3>K-Means Clustering: The Workhorse</h3>
+                        <span class="item-number">6.1.1</span>
+                        <h3>What Is Clustering?</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">Clustering Defined</div>
+                            <p><strong>Caveman:</strong> Group similar things together without being told what "similar" means.</p>
+                            <blockquote>"The Milky Way is nothing else but a mass of innumerable stars planted together in clusters." — Galileo Galilei</blockquote>
+                        </div>
+                        <div class="insight pass">
+                            <div class="insight-header">Hard vs Soft Clustering</div>
+                            <ul>
+                                <li><strong>Hard:</strong> Each point belongs to exactly one cluster (k-means)</li>
+                                <li><strong>Soft:</strong> Points can belong to multiple clusters with probabilities</li>
+                            </ul>
+                        </div>
+                        <div class="insight pass">
+                            <div class="insight-header">Business Applications</div>
+                            <ul>
+                                <li><strong>Customer segmentation:</strong> Target marketing</li>
+                                <li><strong>Market basket analysis:</strong> Product recommendations</li>
+                                <li><strong>Document clustering:</strong> Topic discovery</li>
+                                <li><strong>Image segmentation:</strong> Object detection</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6.1.3 K-Means Algorithm -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-6-2">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">6.1.3</span>
+                        <h3>K-Means Algorithm</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1211,49 +1843,59 @@ scores = iso_forest.decision_function(X)</code></pre>
                     <div class="insights-grid">
                         <div class="insight pass">
                             <div class="insight-header">Algorithm Steps</div>
-                            <p>1. Choose k (number of clusters).<br>
-                            2. Initialize k centroids randomly.<br>
-                            3. Assign each point to nearest centroid.<br>
-                            4. Update centroids to cluster means.<br>
-                            5. Repeat 3-4 until convergence.</p>
+                            <ol>
+                                <li>Choose k (number of clusters)</li>
+                                <li>Randomly initialize k centroids</li>
+                                <li>Assign each point to nearest centroid</li>
+                                <li>Recalculate centroids as mean of cluster</li>
+                                <li>Repeat 3-4 until convergence</li>
+                            </ol>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Assumptions & Limitations</div>
-                            <p>Assumes spherical clusters of similar size.<br>
-                            Sensitive to initialization (use k-means++).<br>
-                            Must specify k in advance.<br>
-                            Doesn't work well with non-convex shapes.</p>
+                        <div class="insight warning">
+                            <div class="insight-header">Limitations</div>
+                            <ul>
+                                <li>Must specify k in advance</li>
+                                <li>Sensitive to initialization</li>
+                                <li>Assumes spherical clusters</li>
+                                <li>Sensitive to outliers</li>
+                                <li>Only works with numerical data</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
                         <pre><code class="language-python">from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-# Always scale first!
+# Scale data (important for k-means!)
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# Fit K-Means
-kmeans = KMeans(n_clusters=3, init='k-means++', random_state=42)
-clusters = kmeans.fit_predict(X_scaled)
+# Fit k-means
+kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
+kmeans.fit(X_scaled)
 
-# Add cluster labels to dataframe
-df['cluster'] = clusters</code></pre>
+# Get cluster labels
+labels = kmeans.labels_
+
+# Cluster centroids
+centroids = kmeans.cluster_centers_
+
+# Inertia (within-cluster sum of squares)
+print(f"Inertia: {kmeans.inertia_}")</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 25: Elbow Method & Silhouette -->
-            <div class="rubric-card highlight">
+            <!-- 6.1.4 Choosing K: Elbow Method -->
+            <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-25">
+                        <input type="checkbox" data-id="c1-6-3">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#25</span>
-                        <h3>Choosing k: Elbow Method & Silhouette Score</h3>
-                        <span class="highlight-badge">Key Skill</span>
+                        <span class="item-number">6.1.4</span>
+                        <h3>Choosing K: Elbow and Silhouette Methods</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1265,52 +1907,60 @@ df['cluster'] = clusters</code></pre>
                     <div class="insights-grid">
                         <div class="insight pass">
                             <div class="insight-header">Elbow Method</div>
-                            <p>Plot inertia (within-cluster sum of squares) vs k.<br>
-                            Look for the "elbow" where adding more clusters gives diminishing returns.<br>
-                            Subjective - the elbow isn't always clear.</p>
+                            <p>Plot inertia (WCSS) vs k. Look for the "elbow" where adding more clusters doesn't significantly reduce inertia.</p>
                         </div>
                         <div class="insight pass">
                             <div class="insight-header">Silhouette Score</div>
-                            <p>Measures how similar points are to own cluster vs other clusters.<br>
-                            Range: -1 to 1. Higher = better separation.<br>
-                            > 0.7 = strong structure, 0.5-0.7 = reasonable, < 0.25 = weak.</p>
+                            <p>Measures how similar points are to their own cluster vs other clusters.</p>
+                            <ul>
+                                <li><strong>Range:</strong> -1 to 1</li>
+                                <li><strong>1:</strong> Perfect clustering</li>
+                                <li><strong>0:</strong> Overlapping clusters</li>
+                                <li><strong>-1:</strong> Wrong cluster assignment</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
-                        <pre><code class="language-python">from sklearn.metrics import silhouette_score
+                        <pre><code class="language-python">from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
 import matplotlib.pyplot as plt
 
+# Elbow method
 inertias = []
 silhouettes = []
+K_range = range(2, 11)
 
-for k in range(2, 11):
+for k in K_range:
     kmeans = KMeans(n_clusters=k, random_state=42)
     kmeans.fit(X_scaled)
     inertias.append(kmeans.inertia_)
     silhouettes.append(silhouette_score(X_scaled, kmeans.labels_))
 
-# Plot Elbow
-plt.subplot(1, 2, 1)
-plt.plot(range(2, 11), inertias, 'bo-')
-plt.xlabel('k'); plt.ylabel('Inertia'); plt.title('Elbow Method')
+# Plot elbow
+fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+axes[0].plot(K_range, inertias, 'bo-')
+axes[0].set_xlabel('k')
+axes[0].set_ylabel('Inertia')
+axes[0].set_title('Elbow Method')
 
-# Plot Silhouette
-plt.subplot(1, 2, 2)
-plt.plot(range(2, 11), silhouettes, 'ro-')
-plt.xlabel('k'); plt.ylabel('Silhouette Score'); plt.title('Silhouette Analysis')</code></pre>
+axes[1].plot(K_range, silhouettes, 'ro-')
+axes[1].set_xlabel('k')
+axes[1].set_ylabel('Silhouette Score')
+axes[1].set_title('Silhouette Method')
+plt.show()</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 26: Hierarchical Clustering -->
+            <!-- 6.2.1 Hierarchical Clustering -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-26">
+                        <input type="checkbox" data-id="c1-6-4">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#26</span>
+                        <span class="item-number">6.2.1</span>
                         <h3>Hierarchical Clustering & Dendrograms</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
@@ -1322,46 +1972,59 @@ plt.xlabel('k'); plt.ylabel('Silhouette Score'); plt.title('Silhouette Analysis'
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">How It Works</div>
-                            <p><strong>Agglomerative (bottom-up):</strong> Start with each point as cluster, merge closest pairs.<br>
-                            <strong>Divisive (top-down):</strong> Start with one cluster, recursively split.<br>
-                            <strong>Dendrogram:</strong> Tree diagram showing cluster hierarchy.</p>
+                            <div class="insight-header">Agglomerative (Bottom-Up)</div>
+                            <ol>
+                                <li>Start with each point as its own cluster</li>
+                                <li>Merge closest clusters</li>
+                                <li>Repeat until single cluster or desired number</li>
+                            </ol>
                         </div>
                         <div class="insight pass">
-                            <div class="insight-header">Linkage Methods</div>
-                            <p><strong>Ward:</strong> Minimize variance increase (most common).<br>
-                            <strong>Complete:</strong> Max distance between clusters.<br>
-                            <strong>Average:</strong> Mean distance.<br>
-                            <strong>Single:</strong> Min distance (can create chains).</p>
+                            <div class="insight-header">Reading Dendrograms</div>
+                            <ul>
+                                <li><strong>Vertical lines:</strong> Cluster merges</li>
+                                <li><strong>Height:</strong> Distance at merge</li>
+                                <li><strong>Cut at height:</strong> Determines number of clusters</li>
+                                <li><strong>Long vertical lines:</strong> Natural cluster separation</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
                         <pre><code class="language-python">from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
 from sklearn.cluster import AgglomerativeClustering
+import matplotlib.pyplot as plt
 
-# Create dendrogram
-linked = linkage(X_scaled, method='ward')
+# Create linkage matrix
+linkage_matrix = linkage(X_scaled, method='ward')
+
+# Plot dendrogram
 plt.figure(figsize=(12, 6))
-dendrogram(linked)
+dendrogram(linkage_matrix)
 plt.title('Hierarchical Clustering Dendrogram')
+plt.xlabel('Sample Index')
+plt.ylabel('Distance')
 plt.show()
 
-# Cut dendrogram at k clusters
-clusters = fcluster(linked, t=3, criterion='maxclust')</code></pre>
+# Cut dendrogram to get clusters
+clusters = fcluster(linkage_matrix, t=3, criterion='maxclust')
+
+# Or use sklearn
+hc = AgglomerativeClustering(n_clusters=3, linkage='ward')
+labels = hc.fit_predict(X_scaled)</code></pre>
                     </div>
                 </div>
             </div>
 
-            <!-- Item 27: DBSCAN -->
+            <!-- 6.2.2 Linkage Methods -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-27">
+                        <input type="checkbox" data-id="c1-6-5">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#27</span>
-                        <h3>DBSCAN: Density-Based Clustering</h3>
+                        <span class="item-number">6.2.2</span>
+                        <h3>Linkage Methods: Ward, Complete, Single, Average</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1372,52 +2035,101 @@ clusters = fcluster(linked, t=3, criterion='maxclust')</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Key Advantages</div>
-                            <p>Doesn't require specifying k in advance.<br>
-                            Finds arbitrarily shaped clusters.<br>
-                            Naturally identifies noise/outliers (label = -1).<br>
-                            Works well with varying density clusters.</p>
+                            <div class="insight-header">Linkage Comparison</div>
+                            <table class="comparison-table">
+                                <tr>
+                                    <th>Method</th>
+                                    <th>Description</th>
+                                    <th>Best For</th>
+                                </tr>
+                                <tr>
+                                    <td><strong>Ward</strong></td>
+                                    <td>Minimize within-cluster variance</td>
+                                    <td>Compact, equal-size clusters</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Complete</strong></td>
+                                    <td>Maximum distance between clusters</td>
+                                    <td>Tight clusters, sensitive to outliers</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Single</strong></td>
+                                    <td>Minimum distance between clusters</td>
+                                    <td>Elongated/chained clusters</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Average</strong></td>
+                                    <td>Mean distance between clusters</td>
+                                    <td>Balanced approach</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6.2.3 Cluster Evaluation -->
+            <div class="rubric-card">
+                <div class="card-header">
+                    <label class="checkbox-container">
+                        <input type="checkbox" data-id="c1-6-6">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="card-title-area">
+                        <span class="item-number">6.2.3</span>
+                        <h3>Cluster Evaluation Methods</h3>
+                    </div>
+                    <button class="expand-btn" aria-label="Toggle details">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="insights-grid">
+                        <div class="insight pass">
+                            <div class="insight-header">Internal Metrics (No Ground Truth)</div>
+                            <ul>
+                                <li><strong>Silhouette Score:</strong> Cohesion vs separation (-1 to 1)</li>
+                                <li><strong>Davies-Bouldin Index:</strong> Average similarity (lower = better)</li>
+                                <li><strong>Calinski-Harabasz Index:</strong> Variance ratio (higher = better)</li>
+                            </ul>
                         </div>
                         <div class="insight pass">
-                            <div class="insight-header">Parameters</div>
-                            <p><strong>eps:</strong> Maximum distance between neighbors.<br>
-                            <strong>min_samples:</strong> Minimum points to form a dense region.<br>
-                            Points with fewer than min_samples neighbors within eps = noise.</p>
+                            <div class="insight-header">External Metrics (With Ground Truth)</div>
+                            <ul>
+                                <li><strong>Adjusted Rand Index:</strong> Similarity to true labels (-1 to 1)</li>
+                                <li><strong>Normalized Mutual Information:</strong> Information shared (0 to 1)</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="code-block">
-                        <pre><code class="language-python">from sklearn.cluster import DBSCAN
+                        <pre><code class="language-python">from sklearn.metrics import (silhouette_score,
+                             davies_bouldin_score,
+                             calinski_harabasz_score)
 
-dbscan = DBSCAN(eps=0.5, min_samples=5)
-clusters = dbscan.fit_predict(X_scaled)
+# Internal metrics
+silhouette = silhouette_score(X_scaled, labels)
+db_score = davies_bouldin_score(X_scaled, labels)
+ch_score = calinski_harabasz_score(X_scaled, labels)
 
-# -1 = noise/outliers
-n_clusters = len(set(clusters)) - (1 if -1 in clusters else 0)
-n_noise = list(clusters).count(-1)
-print(f"Clusters: {n_clusters}, Noise points: {n_noise}")</code></pre>
+print(f"Silhouette: {silhouette:.3f} (higher is better)")
+print(f"Davies-Bouldin: {db_score:.3f} (lower is better)")
+print(f"Calinski-Harabasz: {ch_score:.3f} (higher is better)")</code></pre>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- MINI-PROJECT SECTION -->
-        <section id="mini-project" class="stage-section">
-            <div class="stage-header">
-                <span class="stage-badge" style="background: #ec4899;">MINI-PROJECT</span>
-                <h2>Ship Engine Anomaly Detection</h2>
-                <p class="stage-desc">Apply statistical and ML-based anomaly detection to identify unusual engine behavior.</p>
-            </div>
-
-            <!-- Item 28-35: Mini-project rubric items -->
+            <!-- Mini-Project -->
             <div class="rubric-card">
                 <div class="card-header">
                     <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-28">
+                        <input type="checkbox" data-id="c1-6-7">
                         <span class="checkmark"></span>
                     </label>
                     <div class="card-title-area">
-                        <span class="item-number">#28</span>
-                        <h3>Data Exploration & Preprocessing</h3>
+                        <span class="item-number">MP</span>
+                        <h3>Mini-Projects: Ship Engine Anomalies & Customer Segmentation</h3>
                     </div>
                     <button class="expand-btn" aria-label="Toggle details">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1428,119 +2140,20 @@ print(f"Clusters: {n_clusters}, Noise points: {n_noise}")</code></pre>
                 <div class="card-content">
                     <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Good Example</div>
-                            <p>Checking data shape, types, missing values.<br>
-                            Visualizing distributions with histograms and box plots.<br>
-                            Identifying skewness to choose appropriate method.</p>
+                            <div class="insight-header">Week 5 Project: Ship Engine Anomalies</div>
+                            <ul>
+                                <li>Apply z-score, IQR, and ML methods</li>
+                                <li>Compare detection methods</li>
+                                <li>Business interpretation of findings</li>
+                            </ul>
                         </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Bad Example</div>
-                            <p>Jumping straight to anomaly detection without understanding data.<br>
-                            Ignoring missing values or duplicates.<br>
-                            Not scaling features before ML methods.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="rubric-card">
-                <div class="card-header">
-                    <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-29">
-                        <span class="checkmark"></span>
-                    </label>
-                    <div class="card-title-area">
-                        <span class="item-number">#29</span>
-                        <h3>Apply Z-Score and/or IQR Method</h3>
-                    </div>
-                    <button class="expand-btn" aria-label="Toggle details">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6,9 12,15 18,9"></polyline>
-                        </svg>
-                    </button>
-                </div>
-                <div class="card-content">
-                    <div class="insights-grid">
                         <div class="insight pass">
-                            <div class="insight-header">Good Example</div>
-                            <p>Checking distribution normality before choosing method.<br>
-                            Using Z-score for normal data, IQR for skewed.<br>
-                            Justifying threshold choice (2 vs 3 std dev).</p>
-                        </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Bad Example</div>
-                            <p>Using Z-score on heavily skewed data.<br>
-                            Not explaining why anomalies were flagged.<br>
-                            Arbitrary threshold without justification.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="rubric-card">
-                <div class="card-header">
-                    <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-30">
-                        <span class="checkmark"></span>
-                    </label>
-                    <div class="card-title-area">
-                        <span class="item-number">#30</span>
-                        <h3>Apply ML-Based Anomaly Detection</h3>
-                    </div>
-                    <button class="expand-btn" aria-label="Toggle details">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6,9 12,15 18,9"></polyline>
-                        </svg>
-                    </button>
-                </div>
-                <div class="card-content">
-                    <div class="insights-grid">
-                        <div class="insight pass">
-                            <div class="insight-header">Good Example</div>
-                            <p>Using Isolation Forest with justified contamination parameter.<br>
-                            Comparing multiple methods (k-means, One-Class SVM, Isolation Forest).<br>
-                            Visualizing anomalies in context.</p>
-                        </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Bad Example</div>
-                            <p>Using default parameters without tuning.<br>
-                            Not scaling data before One-Class SVM.<br>
-                            No comparison between methods.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="rubric-card highlight">
-                <div class="card-header">
-                    <label class="checkbox-container">
-                        <input type="checkbox" data-id="c1-item-31">
-                        <span class="checkmark"></span>
-                    </label>
-                    <div class="card-title-area">
-                        <span class="item-number">#31</span>
-                        <h3>Business Interpretation & Recommendations</h3>
-                        <span class="highlight-badge">Key</span>
-                    </div>
-                    <button class="expand-btn" aria-label="Toggle details">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6,9 12,15 18,9"></polyline>
-                        </svg>
-                    </button>
-                </div>
-                <div class="card-content">
-                    <div class="strategic-insight">
-                        <h4>The Key Insight</h4>
-                        <p>Anomaly detection isn't just about finding outliers - it's about translating findings into actionable business recommendations. What does each anomaly mean for ship engine maintenance? What action should be taken?</p>
-                    </div>
-                    <div class="insights-grid">
-                        <div class="insight pass">
-                            <div class="insight-header">Good Example</div>
-                            <p>"Engine #4 shows consistent temperature anomalies in the upper range, suggesting potential cooling system failure. Recommend immediate inspection."</p>
-                        </div>
-                        <div class="insight fail">
-                            <div class="insight-header">Bad Example</div>
-                            <p>"Found 15 anomalies in the dataset." (No interpretation or recommendation)</p>
+                            <div class="insight-header">Week 6 Project: Customer Segmentation</div>
+                            <ul>
+                                <li>Apply k-means and hierarchical clustering</li>
+                                <li>Determine optimal number of clusters</li>
+                                <li>Profile and interpret customer segments</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -1549,41 +2162,12 @@ print(f"Clusters: {n_clusters}, Noise points: {n_noise}")</code></pre>
     </main>
 
     <!-- Footer -->
-    <footer>
-        <p>PACE Course 1 Study Guide | CAM_DS_101</p>
-        <p class="footer-note">Press Ctrl+Shift+R to reset progress | Ctrl+E to expand/collapse all</p>
+    <footer class="footer">
+        <p>PACE Course 1 Study Guide | Cambridge Data Science Career Accelerator</p>
+        <p class="footer-hint">Keyboard shortcuts: Ctrl+Shift+R to reset progress | Ctrl+E to expand/collapse all</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script src="script.js"></script>
-
-    <style>
-        .instructor-quote {
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.05) 100%);
-            border-left: 4px solid var(--accent-primary);
-            padding: 16px 20px;
-            margin-bottom: 20px;
-            border-radius: 0 8px 8px 0;
-            font-style: italic;
-            color: var(--text-secondary);
-            line-height: 1.7;
-        }
-        .instructor-quote .quote-source {
-            display: block;
-            margin-top: 12px;
-            font-style: normal;
-            font-size: 0.85rem;
-            color: var(--accent-primary);
-            font-weight: 600;
-        }
-        .key-point {
-            background: rgba(34, 197, 94, 0.1);
-            border: 1px solid rgba(34, 197, 94, 0.3);
-            border-radius: 8px;
-            padding: 16px;
-            margin-top: 16px;
-            line-height: 1.8;
-        }
-    </style>
 </body>
 </html>

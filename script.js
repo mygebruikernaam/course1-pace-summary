@@ -1,5 +1,5 @@
 /**
- * PACE Course 2 Mini-Project Study Guide
+ * PACE Course 1 Study Guide - Statistics & Core Data Science
  * Interactive functionality with persistent progress
  */
 
@@ -7,7 +7,7 @@
     'use strict';
 
     const STORAGE_KEY = 'pace-course1-progress';
-    const TOTAL_ITEMS = 31;
+    const TOTAL_ITEMS = 65;
 
     // DOM Elements
     const progressBar = document.getElementById('progressBar');
